@@ -6,7 +6,7 @@ export const sharedMetadata = {
   openGraph: {
     title: `${data.profile.nickname} - Links e Contato`,
     description: data.profile.bio,
-    url: 'https://bio-link-green-two.vercel.app/',
+    url: 'https://alinescholl-bio.vercel.app/',
     siteName: 'BioLink',
     images: [
       {

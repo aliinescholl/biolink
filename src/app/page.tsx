@@ -10,7 +10,9 @@ const iconMap: Record<string, React.ReactNode> = {
   linkedin: <Linkedin size={20} />,
   instagram: <Instagram size={20} />,
   web: <Globe size={20} />,
-  portfolio: <Briefcase size={20} />
+  portfolio: <Briefcase size={20} />,
+  tiktok: <Image src="/tiktok.svg" alt="tiktok icon" width={20} height={20}/>,
+  twitch: <Image src="/twitch.svg" alt="twitch icon" width={20} height={20}/>
 };
 
 export default function HomePage() {
