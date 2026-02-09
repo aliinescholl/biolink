@@ -14,11 +14,11 @@
     "telegram": ""
   },
   "theme": {
-    "pageBackground": "#0f172a",
+    "pageBackground": "#ff7fc1",
     "pageText": "#f8fafc",
-    "cardBackground": "#1e293b",
+    "cardBackground": "#d54192",
     "cardText": "#ffffff",
-    "buttonBackground": "#334155",
+    "buttonBackground": "#bf217b",
     "buttonText": "#ffffff",
     "bgMobile": "/bg-mobile.jpg",
     "bgDesktop": "/bg-desktop.jpg"
