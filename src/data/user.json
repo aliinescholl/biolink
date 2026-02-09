@@ -1,0 +1,29 @@
+{
+  "profile": {
+    "name": "Jonas",
+    "nickname": "Jonas Dev",
+    "username": "@jonas_dev",
+    "bio": "Software Developer | Next.js & Java",
+    "profileImage": ""
+  },
+  "contacts": {
+    "email": "jonas@exemplo.com",
+    "phone": "+55 11 99999-9999",
+    "linkedin": "linkedin.com/in/jonas",
+    "github": "github.com/jonas",
+    "telegram": "@jonas_tele"
+  },
+  "theme": {
+    "backgroundColor": "#0f172a",
+    "textColor": "#ffffff",
+    "buttonColor": "#1e293b",
+    "buttonTextColor": "#ffffff",
+    "bgMobile": "/bg-mobile.jpg",
+    "bgDesktop": "/bg-desktop.jpg"
+  },
+  "links": [
+    { "id": 1, "label": "GitHub", "url": "https://github.com", "icon": "github" },
+    { "id": 2, "label": "LinkedIn", "url": "https://linkedin.com", "icon": "linkedin" },
+    { "id": 3, "label": "Instagram", "url": "https://instagram.com", "icon": "instagram" }
+  ]
+}
