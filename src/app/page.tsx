@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import data from '@/data/user.json';
-import { Github, Linkedin, Instagram, Globe, ArrowRight, Share2, Check, Briefcase } from 'lucide-react';
+import { Github, Linkedin, Instagram, Globe, ArrowRight, Share2, Check, Briefcase, Coins } from 'lucide-react';
 
 const iconMap: Record<string, React.ReactNode> = {
   github: <Github size={20} />,
@@ -11,6 +11,7 @@ const iconMap: Record<string, React.ReactNode> = {
   instagram: <Instagram size={20} />,
   web: <Globe size={20} />,
   portfolio: <Briefcase size={20} />,
+  coins: <Coins size={20} />,
   tiktok: <Image src="/tiktok.svg" alt="tiktok icon" width={20} height={20}/>,
   twitch: <Image src="/twitch.svg" alt="twitch icon" width={20} height={20}/>
 };

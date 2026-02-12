@@ -24,11 +24,12 @@
     "bgDesktop": "/bg-desktop.jpg"
     },
   "links": [
-    { "id": 1, "label": "TikTok", "url": "https://www.tiktok.com/@aliinescholl_", "icon": "tiktok" },
-    { "id": 2, "label": "Instagram", "url": "https://www.instagram.com/aliinescholl/", "icon": "instagram" },
-    { "id": 3, "label": "Twitch", "url": "https://www.twitch.tv/lagartixaraivosa", "icon": "twitch" },
-    { "id": 4, "label": "GitHub", "url": "https://github.com/aliinescholl", "icon": "github" },
-    { "id": 5, "label": "LinkedIn", "url": "https://www.linkedin.com/in/aliinescholl/", "icon": "linkedin" },
-    { "id": 6, "label": "Portfólio", "url": "https://aline-dev.vercel.app/", "icon": "briefcase" }
+    { "id": 1, "label": "LivePix", "url": "https://livepix.gg/lagartixaraivosa/", "icon": "coins" },
+    { "id": 2, "label": "TikTok", "url": "https://www.tiktok.com/@aliinescholl_", "icon": "tiktok" },
+    { "id": 3, "label": "Instagram", "url": "https://www.instagram.com/lagartixa.raivosa/", "icon": "instagram" },
+    { "id": 4, "label": "Twitch", "url": "https://www.twitch.tv/lagartixaraivosa", "icon": "twitch" },
+    { "id": 5, "label": "GitHub", "url": "https://github.com/aliinescholl", "icon": "github" },
+    { "id": 6, "label": "LinkedIn", "url": "https://www.linkedin.com/in/aliinescholl/", "icon": "linkedin" },
+    { "id": 7, "label": "Portfólio", "url": "https://aline-dev.vercel.app/", "icon": "briefcase" }
   ]
 }
