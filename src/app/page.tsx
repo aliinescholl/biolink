@@ -3,15 +3,9 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import data from '@/data/user.json';
-import { Github, Linkedin, Instagram, Globe, ArrowRight, Share2, Check, Briefcase } from 'lucide-react';
 
-const iconMap: Record<string, React.ReactNode> = {
-  github: <Github size={20} />,
-  linkedin: <Linkedin size={20} />,
-  instagram: <Instagram size={20} />,
-  web: <Globe size={20} />,
-  portfolio: <Briefcase size={20} />
-};
+import { ArrowRight, Share2, Check, Globe } from 'lucide-react';
+import { iconRepository } from './icons_repository';
 
 export default function HomePage() {
   const { profile, links, theme } = data;
@@ -71,8 +65,8 @@ export default function HomePage() {
                 style={{ backgroundColor: theme.buttonBackground, color: theme.buttonText }}
               >
                 <div className="flex items-center gap-4">
-                  <div>
-                    {iconMap[link.icon] || <Globe size={20} />}
+                  <div className="flex items-center justify-center w-6 h-6">
+                    {iconRepository[link.icon] || <Globe size={20} />}
                   </div>
                   <span className="font-bold">{link.label}</span>
                 </div>
