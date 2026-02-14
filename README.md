@@ -80,7 +80,7 @@ Para adicionar novos links, adicione um objeto no array `links` do JSON. O campo
 **Como adicionar novos ícones:**
 Os ícones do projeto são gerenciados localmente para garantir melhor performance e personalização. Para adicionar um novo:
 1. Baixe o ícone desejado no formato `.svg` e coloque-o na pasta `src/data/icons/`.
-2. Abra o arquivo `src/components/icons-repository.tsx`.
+2. Abra o arquivo `src/components/icons_repository.tsx`.
 3. Importe o SVG e adicione-o ao objeto `iconRepository`:
 
 ```typescript
