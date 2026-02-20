@@ -1,17 +1,18 @@
 "use client";
 import data from '@/data/user.json';
 import Image from 'next/image';
-import { Mail, Phone, Github, Linkedin, Send, ArrowLeft } from 'lucide-react';
+import { Send, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+import { iconRepository } from '../icons_repository';
 
 export default function ProfilePage() {
   const { profile, theme, contacts } = data;
   const userImage = profile.profileImage || "/default-image.jpg";
 
   const contactList = [
-    { type: 'email', value: contacts.email, icon: <Mail size={20} />, label: "E-mail" },
-    { type: 'phone', value: contacts.phone, icon: <Phone size={20} />, label: "Telefone" },
-    { type: 'telegram', value: contacts.telegram, icon: <Send size={20} />, label: "Telegram" },
+    { type: 'email', value: contacts.email, icon: iconRepository.mail, label: "E-mail" },
+    { type: 'phone', value: contacts.phone, icon: iconRepository.phone, label: "Telefone" },
+    { type: 'telegram', value: contacts.telegram, icon: iconRepository.telegram, label: "Telegram" },
   ].filter(item => item.value && item.value.trim() !== "");
 
   return (
@@ -73,7 +74,7 @@ export default function ProfilePage() {
               className="flex items-center justify-center gap-2 p-3 rounded-xl transition-colors hover:opacity-80"
               style={{ backgroundColor: theme.buttonBackground, color: theme.buttonText }}
             >
-              <Github size={18} /> <span className="text-sm font-bold">GitHub</span>
+              {iconRepository.github} <span className="text-sm font-bold">GitHub</span>
             </a>
           )}
           
@@ -85,7 +86,7 @@ export default function ProfilePage() {
               className="flex items-center justify-center gap-2 p-3 rounded-xl transition-colors hover:opacity-80"
               style={{ backgroundColor: theme.buttonBackground, color: theme.buttonText }}
             >
-              <Linkedin size={18} /> <span className="text-sm font-bold">LinkedIn</span>
+              {iconRepository.linkedin} <span className="text-sm font-bold">LinkedIn</span>
             </a>
           )}
         </div>
