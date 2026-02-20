@@ -6,6 +6,52 @@
     "bio": "Software Developer | Next.js & Java",
     "profileImage": "/profile.jpg"
   },
+  "showCases": [
+    {
+      "id": 1,
+      "showShowCase": true,
+      "showCaseName": "Meu Setup",
+      "showCaseDescription": "Conheça meu setup de desenvolvimento, incluindo hardware, software e ferramentas que utilizo para criar projetos incríveis.",
+      "showCaseItems": [
+        {
+          "id": 1,
+          "name": "Laptop",
+          "description": "Dell XPS 15 - Processador Intel Core i7, 16GB RAM, 512GB SSD",
+          "image": "https://www.onikuma.com/cdn/shop/files/5_78ca4e70-fbcd-4010-bebc-466bbf0624b8_800x.jpg?v=1708760484",
+          "link": "https://www.dell.com/en-us/shop/dell-laptops/xps-15-laptop/spd/xps-15-9510-laptop"
+        },
+        {
+          "id": 2,
+          "name": "Monitor",
+          "description": "LG UltraFine 27MD5KL-B - Monitor 5K de 27 polegadas",
+          "image": "./monitor.jpg",
+          "link": "https://www.lg.com/us/monitors/lg-27md5kl-b-ultrafine-5k-monitor"
+        },
+        {
+          "id": 3,
+          "name": "Teclado",
+          "description": "Keychron K2 - Teclado mecânico compacto com switch vermelho",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT70pViLlwDgW6bqPG9aSZlbKBVCU9rJ6AdgEtqfsT7nXzNvaVcWpO7p9TzliUoFNZwui3dLbaT2iS9twlqN2pHiS-MI4Rpx85xVVhNcGNPzauev02Xaspu",
+          "link": "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "showShowCase": true,
+      "showCaseName": "Produtos Favoritos",
+      "showCaseDescription": "Explore alguns dos meus produtos favoritos, incluindo hardware e software que uso no meu dia a dia.",
+      "showCaseItems": [
+        {
+          "id": 1,
+          "name": "Perfume",
+          "description": "Um belo perfume para homens, com notas amadeiradas e cítricas, perfeito para o dia a dia.",
+          "image": "./projetoA.jpg",
+          "link": "https://jonathaneamorim.github.io/"
+        }
+      ]
+    }
+  ],
   "contacts": {
     "email": "jonathaneamorim@gmail.com",
     "phone": "+55 00 00000-0000",
