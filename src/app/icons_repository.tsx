@@ -12,6 +12,9 @@ import tiktok from '@/data/icons/tiktok.svg';
 import twitch from '@/data/icons/twitch.svg';
 import x from '@/data/icons/x.svg';
 import youtube from '@/data/icons/youtube.svg';
+import mail from '@/data/icons/mail.svg';
+import phone from '@/data/icons/phone.svg';
+import telegram from '@/data/icons/telegram.svg';
 
 export const iconRepository: Record<string, React.ReactNode> = {
   coin: <Image src={coin} alt="Coin" width={24} height={24} />,
@@ -26,4 +29,7 @@ export const iconRepository: Record<string, React.ReactNode> = {
   twitch: <Image src={twitch} alt="Twitch" width={24} height={24} />,
   x: <Image src={x} alt="X" width={24} height={24} />,
   youtube: <Image src={youtube} alt="YouTube" width={24} height={24} />,
+  mail: <Image src={mail} alt="Mail" width={24} height={24} />,
+  phone: <Image src={phone} alt="Phone" width={24} height={24} />,
+  telegram: <Image src={telegram} alt="Telegram" width={24} height={24} />,
 };
