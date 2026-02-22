@@ -4,6 +4,7 @@ import { iconRepository } from '../icons_repository';
 import { Profile } from '@/components/Profile';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import { ReturnButton } from '@/components/ReturnButton';
 
 export default function ProfilePage() {
   const { theme, contacts } = data;
@@ -12,7 +13,9 @@ export default function ProfilePage() {
     <main 
       className="min-h-screen flex flex-col items-center p-6 relative transition-colors duration-300"
       style={{ backgroundColor: theme.pageBackground, color: theme.pageText }}>
-      
+        
+        <ReturnButton/>
+
         <section className="w-full max-w-md mt-12">
           <Profile />
 
