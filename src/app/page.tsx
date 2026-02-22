@@ -36,7 +36,7 @@ export default function HomePage() {
               showCase.showShowCase && (
                 <Link key={showCase.id} href={`/showcase/${showCase.id}`}>
                   <div 
-                    className="mb-6 p-4 rounded-2xl shadow-lg border border-white/5 transition-all w-full hover:scale-[1.02] active:scale-95 flex items-center justify-between gap-2" 
+                    className="mb-6 p-4 rounded shadow-lg border border-white/5 transition-all w-full hover:scale-[1.02] active:scale-95 flex items-center justify-between gap-2" 
                     style={{ backgroundColor: theme.cardBackground, color: theme.cardText }}>
                      <div>
                         <h2 className="text-xl font-bold mb-2">{showCase.showCaseName}</h2>
