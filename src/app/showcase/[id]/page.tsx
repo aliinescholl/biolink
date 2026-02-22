@@ -16,7 +16,7 @@ export default async function ShowCasePage({ params }: { params: Promise<{ id: s
       style={{ backgroundColor: theme.pageBackground, color: theme.pageText }}>
 
       <ReturnButton/>
-      
+
       <section className="w-full max-w-md mt-12">
          <Profile />
         
@@ -31,7 +31,7 @@ export default async function ShowCasePage({ params }: { params: Promise<{ id: s
               {showCase.showCaseItems.map((item, index) => (
                 <Link key={index} href={item.link}>
                   <div 
-                    className="p-4 border rounded flex justify-between items-center group gap-4" 
+                    className="p-4 border rounded flex justify-between items-center group gap-4 hover:scale-[1.02] active:scale-95 transition-all" 
                     style={{ backgroundColor: theme.cardBackground, color: theme.cardText, borderColor: 'rgba(255,255,255,0.05)' }}>
                       <div className="relative w-[30%] h-[70px]">
                         <Image
@@ -44,7 +44,7 @@ export default async function ShowCasePage({ params }: { params: Promise<{ id: s
 
                     <div>
                       <h3 className="text-xl font-semibold">{item.name}</h3>
-                      <p className="opacity-80">{item.description}</p>
+                      <p className="text-sm opacity-80">{item.description}</p>
                     </div>
 
                     <div>
