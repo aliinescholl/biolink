@@ -4,15 +4,62 @@
     "nickname": "Lagartixa Raivosa",
     "username": "@aliinescholl",
     "bio": "Software Developer | Streamer",
-    "profileImage": "/profile.jpg"
+    "profileImage": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/28308ed7fb72d97dd91fbb80e254bee1~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=db6e551d&x-expires=1771977600&x-signature=bLGt8z2gCvIH7LM%2BGKHlzZVaMFM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
   },
-  "contacts": {
-    "email": "aline.scholl13@gmail.com",
-    "phone": "+55 00 00000-0000",
-    "linkedin": "linkedin.com/in/aliinescholl/",
-    "github": "github.com/aliinescholl",
-    "telegram": ""
-  },
+  "contacts": [
+    {
+      "id": 1,
+      "label": "Email",
+      "value": "aline.scholl13@gmail.com",
+      "href": "mailto:aline.scholl13@gmail.com",
+      "icon": "mail"
+    },
+    {
+      "id": 2,
+      "label": "linkedin",
+      "value": "aliinescholl",
+      "href": "https://linkedin.com/in/aliinescholl/",
+      "icon": "linkedin"
+    },
+    {
+      "id": 3,
+      "label": "Github",
+      "value": "aliinescholl",
+      "href": "https://github.com/aliinescholl",
+      "icon": "github"
+    }
+  ],
+   "showCases": [
+    {
+      "id": 1,
+      "showShowCase": true,
+      "showCaseName": "Meu Setup",
+      "showCaseDescription": "Conheça meu setup de desenvolvimento, incluindo hardware, software e ferramentas que utilizo para criar projetos incríveis.",
+      "showCaseItems": [
+        {
+          "id": 1,
+          "name": "Laptop",
+          "description": "Dell XPS 15 - Processador Intel Core i7, 16GB RAM, 512GB SSD",
+          "image": "https://www.onikuma.com/cdn/shop/files/5_78ca4e70-fbcd-4010-bebc-466bbf0624b8_800x.jpg?v=1708760484",
+          "link": "https://www.dell.com/en-us/shop/dell-laptops/xps-15-laptop/spd/xps-15-9510-laptop"
+        },
+        {
+          "id": 2,
+          "name": "Monitor",
+          "description": "LG UltraFine 27MD5KL-B - Monitor 5K de 27 polegadas",
+          "image": "https://www.coisasdaroca.com/wp-content/uploads/2021/04/lagartixa-768x576.jpg",
+          "link": "https://www.lg.com/us/monitors/lg-27md5kl-b-ultrafine-5k-monitor"
+        },
+        {
+          "id": 3,
+          "name": "Teclado",
+          "description": "Keychron K2 - Teclado mecânico compacto com switch vermelho",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT70pViLlwDgW6bqPG9aSZlbKBVCU9rJ6AdgEtqfsT7nXzNvaVcWpO7p9TzliUoFNZwui3dLbaT2iS9twlqN2pHiS-MI4Rpx85xVVhNcGNPzauev02Xaspu",
+          "link": "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard"
+        }
+      ]
+    }
+  ],
   "theme": {
     "pageBackground": "#ff7fc1",
     "pageText": "#f8fafc",
@@ -24,12 +71,13 @@
     "bgDesktop": "/bg-desktop.jpg"
     },
   "links": [
-    { "id": 1, "label": "LivePix", "url": "https://livepix.gg/lagartixaraivosa/", "icon": "coins" },
-    { "id": 2, "label": "TikTok", "url": "https://www.tiktok.com/@lagartixa.raivosa", "icon": "tiktok" },
-    { "id": 3, "label": "Instagram", "url": "https://www.instagram.com/lagartixa.raivosa/", "icon": "instagram" },
-    { "id": 4, "label": "Twitch", "url": "https://www.twitch.tv/lagartixaraivosa", "icon": "twitch" },
-    { "id": 5, "label": "GitHub", "url": "https://github.com/aliinescholl", "icon": "github" },
-    { "id": 6, "label": "LinkedIn", "url": "https://www.linkedin.com/in/aliinescholl/", "icon": "linkedin" },
-    { "id": 7, "label": "Portfólio", "url": "https://aline-dev.vercel.app/", "icon": "briefcase" }
+    { "id": 1, "label": "Youtube", "url": "https://www.youtube.com/@LagartixaRaivosa", "icon": "youtube" },
+    { "id": 2, "label": "LivePix", "url": "https://livepix.gg/lagartixaraivosa/", "icon": "coin" },
+    { "id": 3, "label": "TikTok", "url": "https://www.tiktok.com/@lagartixa.raivosa", "icon": "tiktok" },
+    { "id": 4, "label": "Instagram", "url": "https://www.instagram.com/lagartixa.raivosa/", "icon": "instagram" },
+    { "id": 5, "label": "Twitch", "url": "https://www.twitch.tv/lagartixaraivosa", "icon": "twitch" },
+    { "id": 6, "label": "GitHub", "url": "https://github.com/aliinescholl", "icon": "github" },
+    { "id": 7, "label": "LinkedIn", "url": "https://www.linkedin.com/in/aliinescholl/", "icon": "linkedin" },
+    { "id": 8, "label": "Portfólio", "url": "https://aline-dev.vercel.app/", "icon": "briefcase" }
   ]
 }
