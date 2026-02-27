@@ -71,13 +71,14 @@
     "bgDesktop": "/bg-desktop.jpg"
     },
   "links": [
-    { "id": 1, "label": "Youtube", "url": "https://www.youtube.com/@LagartixaRaivosa", "icon": "youtube" },
-    { "id": 2, "label": "LivePix", "url": "https://livepix.gg/lagartixaraivosa/", "icon": "coin" },
-    { "id": 3, "label": "TikTok", "url": "https://www.tiktok.com/@lagartixa.raivosa", "icon": "tiktok" },
-    { "id": 4, "label": "Instagram", "url": "https://www.instagram.com/lagartixa.raivosa/", "icon": "instagram" },
-    { "id": 5, "label": "Twitch", "url": "https://www.twitch.tv/lagartixaraivosa", "icon": "twitch" },
-    { "id": 6, "label": "GitHub", "url": "https://github.com/aliinescholl", "icon": "github" },
-    { "id": 7, "label": "LinkedIn", "url": "https://www.linkedin.com/in/aliinescholl/", "icon": "linkedin" },
-    { "id": 8, "label": "Portfólio", "url": "https://aline-dev.vercel.app/", "icon": "briefcase" }
+    { "id": 1, "label": "LivePix", "url": "https://livepix.gg/lagartixaraivosa/", "icon": "coin" },
+    { "id": 2, "label": "Discord", "url": "https://discord.gg/NTs89GrFnN", "icon": "discord" },
+    { "id": 3, "label": "Youtube", "url": "https://www.youtube.com/@LagartixaRaivosa", "icon": "youtube" },
+    { "id": 4, "label": "TikTok", "url": "https://www.tiktok.com/@lagartixa.raivosa", "icon": "tiktok" },
+    { "id": 5, "label": "Instagram", "url": "https://www.instagram.com/lagartixa.raivosa/", "icon": "instagram" },
+    { "id": 6, "label": "Twitch", "url": "https://www.twitch.tv/lagartixaraivosa", "icon": "twitch" },
+    { "id": 7, "label": "GitHub", "url": "https://github.com/aliinescholl", "icon": "github" },
+    { "id": 8, "label": "LinkedIn", "url": "https://www.linkedin.com/in/aliinescholl/", "icon": "linkedin" },
+    { "id": 9, "label": "Portfólio", "url": "https://aline-dev.vercel.app/", "icon": "briefcase" }
   ]
 }
